@@ -155,14 +155,14 @@ header{
         background: black;
         position: relative;
         padding:  50px;
-        video {
-            height: 80%;
+        #video {
+            height: 70%;
             margin-top: 60px;
         }
         .spot_05 {
             position: absolute;
             top: 40%;
-            left: 20%;
+            left: 10%;
             font-size: 90px;
             font-weight: bolder;
            
@@ -201,7 +201,8 @@ header{
         bottom: 0;
         z-index: 11;
         nav{
-            a{margin-left: 30px; position: relative;
+            a{
+                margin-left: 30px; position: relative;
                 &::after{
                     content: '';
                     width: 0; height: 1px;
